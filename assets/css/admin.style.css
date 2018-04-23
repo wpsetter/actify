@@ -1,0 +1,32 @@
+.gamify-page-wrapper {
+    display: flex;
+    margin: 10px 20px 0 2px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.gamify-page-wrapper .setting-item {
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gamify-page-wrapper .setting-item .item-element {
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 250px;
+
+}
+
+.gamify-page-wrapper .setting-item label {
+    line-height: 26px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.gamify-page-wrapper .setting-item .item-element input[type=checkbox] {
+    margin: 0px;
+}

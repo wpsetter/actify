@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Actify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 03:40+0000\n"
+"PO-Revision-Date: 2018-04-23 04:37+0000\n"
+"Last-Translator: admin <admin@admin.com>\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 :(((n%100>19)||(( n%100==0)&&(n!"
+"=0)))? 2 : 1));\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Base ID
+#: classes/class.actify.widget.highlights.php:19
+msgid "Actify Highlights Widget"
+msgstr "Actify Highlights Widget"
+
+#: classes/class.actify.widget.highlights.php:20
+msgid "A widget that show the most highlighted quotes from posts"
+msgstr "Piesa care afișează cele mai des markate fraze din postări."
+
+#: classes/class.actify.widget.highlights.php:39
+msgid "Highlights"
+msgstr "Fraze marcate"
+
+#: classes/class.actify.widget.highlights.php:89
+#, php-format
+msgid "%s people highlighted this passage."
+msgstr "%s utilizatori au marcat acestă frază."
+
+#: classes/class.actify.widget.highlights.php:111
+msgid "New title"
+msgstr "Titlu nou"
+
+#: classes/class.actify.widget.highlights.php:118
+msgid "Title:"
+msgstr "Titlu:"
+
+#: classes/class.actify.widget.highlights.php:124
+msgid "Minimum counts to show highlight:"
+msgstr "Numărul minim de marcări:"
+
+#: classes/class.actify.widget.highlights.php:130
+msgid "Number of highlights to show:"
+msgstr "Numărul de marcări pentru a fi afișat:"
+
+#: classes/class.actify.widget.highlights.php:139
+msgid "Show number of counts ?"
+msgstr "Afișează numărul de marcaje numărate?"
+
+#: classes/class.actify.php:141 classes/class.actify.php:208
+#: classes/class.actify.php:250
+msgid "Invalid security token sent."
+msgstr "Security token trimis este invalid."
+
+#: classes/class.actify.php:151 classes/class.actify.php:218
+#: classes/class.actify.php:260
+msgid "Recaptcha server request error."
+msgstr "Eroare de server la conexiunea cu Recaptcha."
+
+#: classes/class.actify.php:225 classes/class.actify.php:267
+msgid "Invalid recaptcha token sent."
+msgstr "Recaptcha token trimis este invalid."
+
+#: classes/class.actify.php:351
+msgid "Options was saved"
+msgstr "Opțiunele au fost salvate."
+
+#: classes/class.actify.php:361 classes/class.actify.php:362
+#: classes/class.actify.php:892
+msgid "Actify Settings"
+msgstr "Actify Setări"
+
+#: classes/class.actify.php:893
+msgid "Show Facebook button"
+msgstr "Afișează buttonul de Facebook"
+
+#: classes/class.actify.php:894
+msgid "Show Facebook button in the tooltip."
+msgstr "Afișează button de facebook în tooltip."
+
+#: classes/class.actify.php:895
+msgid "Facebook App Id"
+msgstr "Facebook Id-ul Aplicației"
+
+#: classes/class.actify.php:897
+#, php-format
+msgid ""
+"A unique ID given to your app to use whenever, <a href=\"%s\">read more</a>."
+msgstr ""
+"Un ID unic setat pentru aplicația ta, <a href=\"%s\">citește mai multe</a>."
+
+#: classes/class.actify.php:903
+msgid "Recaptcha Site Key"
+msgstr "Recaptcha Site Key"
+
+#: classes/class.actify.php:906
+#, php-format
+msgid ""
+"The site key is used to invoke reCAPTCHA service on your site or mobile "
+"application, <a href=\"%s\">read more</a>."
+msgstr ""
+"Site key-ul e folosit pentru a accesa serviciul reCAPTCHA pe site sau pe "
+"aplicația mobile, <a href=\"%s\">citește mai multe</a>."
+
+#: classes/class.actify.php:914
+msgid "Recaptcha Secret Key"
+msgstr "Recaptcha Secret Key"
+
+#: classes/class.actify.php:918
+#, php-format
+msgid ""
+"The secret key authorizes communication between your application backend and "
+"the reCAPTCHA server to verify the user's response, <a href=\"%s\">read "
+"more</a>."
+msgstr ""
+"Cheia secretă autorizează comunicare între aplicație și serverul reCAPTCHA "
+"pentru a verifica răspunsul primit de utilizator, <a href=\"%s\">citește mai "
+"departe</a>."
+
+#: classes/class.actify.php:926
+msgid "Show Twitter button"
+msgstr "Afișează button Twitter"
+
+#: classes/class.actify.php:927
+msgid "Show Twitter button in the tooltip."
+msgstr "Afișează buttonul Twitter în tooltip."
+
+#: classes/class.actify.php:928
+msgid "Show highlight button"
+msgstr "Afișează button de marcare"
+
+#: classes/class.actify.php:929
+msgid "Show highlight button in the tooltip."
+msgstr "Afișează buttonul de marcare în tooltip."
+
+#: classes/class.actify.php:930
+msgid "Minimum number of highlights"
+msgstr "Numărul minim de marcări"
+
+#: classes/class.actify.php:931
+msgid "Minimum number of highlights to be shown in the page/post."
+msgstr "Numărul minim de marcări pentru a fi afișate în păgini/postări."
+
+#: classes/class.actify.php:932
+msgid "Show report mistake button"
+msgstr "Afișează buttonul de raportează o greșeală"
+
+#: classes/class.actify.php:933
+msgid "Show report mistake button in the tooltip."
+msgstr "Afișează buttonul de raportează o greșeală în tooltip."
+
+#: classes/class.actify.php:934
+msgid "Show report similar cases button"
+msgstr "Afișează buttonul raportează un caz similar"
+
+#: classes/class.actify.php:935
+msgid "Show report similar cases button in the tooltip."
+msgstr "Afișează buttonul raportează un caz similar în tooltip."
+
+#: classes/class.actify.php:936
+msgid "Enable Actify functionality in pages."
+msgstr "Activează funcționalitatea Actify în pagini."
+
+#: classes/class.actify.php:937
+msgid "Show tooltip in single page template."
+msgstr "Afișează tooltipul în singe page template."
+
+#: classes/class.actify.php:938
+msgid "Enable Actify functionality in posts."
+msgstr "Activează funcționalitatea Actify în postări."
+
+#: classes/class.actify.php:939
+msgid "Show tooltip in single post template."
+msgstr "Afișează tooltipul în single post template."
+
+#: classes/class.actify.php:940
+msgid "Save Settings"
+msgstr "Salvează setările."
+
+#: classes/class.actify.php:943
+msgid "Your highlight was sent."
+msgstr ""
+"Dragă cititor, îți mulțumim pentru sesizare. Lectură plăcută în continuare!"
+
+#: classes/class.actify.php:944 classes/class.actify.php:959
+#: classes/class.actify.php:970
+msgid "Invalid Security token."
+msgstr "Security token nu este valid."
+
+#: classes/class.actify.php:945 classes/class.actify.php:960
+#: classes/class.actify.php:971
+msgid "Invalid recaptcha validation."
+msgstr "Validarea Recaptcha a eșuat."
+
+#: classes/class.actify.php:946 classes/class.actify.php:961
+#: classes/class.actify.php:972
+msgid "Invalid recaptcha request."
+msgstr "Raspunsul de la serverul reCAPTHA este invalid."
+
+#: classes/class.actify.php:947 classes/class.actify.php:973
+msgid "Send"
+msgstr "Trimite"
+
+#: classes/class.actify.php:948 classes/class.actify.php:963
+#: classes/class.actify.php:974
+msgid "Close"
+msgstr "Închide"
+
+#: classes/class.actify.php:949 classes/class.actify.php:955
+msgid "Highlight as favourite quote."
+msgstr "Marchează ca frază favorită."
+
+#: classes/class.actify.php:952
+msgid "Share on facebook"
+msgstr "Distribuie pe facebook"
+
+#: classes/class.actify.php:953
+msgid "Share on Twitter"
+msgstr "Distribuie pe Twitter"
+
+#: classes/class.actify.php:954
+msgid "Send a typo."
+msgstr "Trimite o greșeală gramaticală"
+
+#: classes/class.actify.php:958
+msgid "Your typo was sent."
+msgstr "Greșeala gramaticală a fost trimisă."
+
+#: classes/class.actify.php:962
+msgid "Send Mistake"
+msgstr "Trimite"
+
+#: classes/class.actify.php:964
+msgid "Report a mistake"
+msgstr "Raportează o greșeală gramaticală"
+
+#: classes/class.actify.php:965
+msgid "Mistake"
+msgstr "Greșeală gramaticală"
+
+#: classes/class.actify.php:966
+msgid "Corrected mistake"
+msgstr "Versiunea corectată"
+
+#: classes/class.actify.php:969
+msgid "Your report was sent."
+msgstr "Ați raportat cu succes."
+
+#: classes/class.actify.php:975
+msgid "Report similar cases"
+msgstr "Raportează cazuri similare"
+
+#: classes/class.actify.php:976
+msgid "Phone number"
+msgstr "Număr de contact"
+
+#: classes/class.actify.php:977
+msgid "Describe your case."
+msgstr "Descrie cazul."
+
+#: classes/class.actify.php:1082
+msgid "Highlight Details"
+msgstr "Detalii a marcării"
+
+#: classes/class.actify.php:1106
+#, php-format
+msgid "Highlighted from : %s"
+msgstr "Marcat din : %s"
+
+#: classes/class.actify.php:1107
+#, php-format
+msgid "Highlighted length : %s"
+msgstr "Lungimea macării în caractere : %s"
+
+#: classes/class.actify.php:1108
+#, php-format
+msgid "Highlighted words : %s"
+msgstr "Numărul de cuvinte marcate : %s"
+
+#: classes/class.actify.php:1109
+#, php-format
+msgid "Count highlights : %s"
+msgstr "Numărul de marcări : %s"
+
+#. Name of the plugin
+msgid "Actify"
+msgstr "Actify"
+
+#. Description of the plugin
+msgid ""
+"Actify is a Wordpress plugin that increases the interaction of the readers "
+"of your website with the content."
+msgstr ""
+"Actify este un WordPress plugin care mărește interacțiunea utilizatorilor cu "
+"contentul de pe site."
+
+#. URI of the plugin
+msgid "http://moldova.org/gamification"
+msgstr ""
+
+#. Author of the plugin
+msgid "Moldova.org Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://moldova.org/actify/about-plugin"
+msgstr ""
