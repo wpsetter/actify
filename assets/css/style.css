@@ -49,7 +49,7 @@
 .modal-container {
     display: flex;
     justify-content: center;
-    width: 700px;
+    max-width: 700px;
     min-height: 454px;
     margin: 40px auto 0;
     padding: 20px 30px;
@@ -220,4 +220,58 @@ body.modal-open {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .megafon-wrapper {
+        top: 88%;
+        left: 10px;
+    }
+
+    .megafon-wrapper .fa{
+        font-size: 26px;
+    }
+
+    .modal-container .modal-footer{
+        flex-direction: column;
+    }
+
+    .modal-container .modal-footer .recaptcha, .modal-container .modal-footer .controls{
+        width: 100%;
+    }
+
+    .modal-container .modal-footer .controls{
+        margin-top: 10px;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .megafon-wrapper {
+        top: 88%;
+        left: 10px;
+    }
+
+    .megafon-wrapper .fa{
+        font-size: 26px;
+    }
+
+    .modal-container .modal-footer{
+        flex-direction: column;
+    }
+
+    .modal-container .modal-footer .recaptcha, .modal-container .modal-footer .controls{
+        width: 100%;
+    }
+
+    .modal-container .modal-footer .controls{
+        margin-top: 10px;
+    }
 }
